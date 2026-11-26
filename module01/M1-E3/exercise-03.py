@@ -1,0 +1,6 @@
+print('Welcome to BillSplit!')
+t=int(input('Enter the total value: '))
+tp=int(input('Enter the amout of the tip: '))
+p=int(input('How many people are there?: '))
+ans=((t + tp) / p)
+print('Each person will pay: ', ans)
